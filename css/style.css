@@ -1,0 +1,113 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+ margin-top: 18px;
+ margin-bottom: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 850px) {
+  .header {
+    flex-direction:column;
+  }
+}
+
+.logo {
+  width: 128px;
+  height: 39px;
+}
+
+@media screen and (max-width: 1000px) {
+  .logo {
+    width: 100px;
+    height: 30px;
+    margin-right: 8px;
+  }
+}
+
+
+
+.nav__link {
+  text-decoration: none;
+  margin-right: 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav__link {
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 15px;
+  }
+}
+
+.nav__button {
+  background: #575445;
+  border-radius: 6px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav__button {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+.nav__button1 {
+  width: 143px;
+  height: 44px;
+}
+@media screen and (max-width: 1000px) {
+  .nav__button1 {
+    width: 110px;
+  height: 35px;
+  }
+}
+.nav__button2 {
+  width: 125px;
+  height: 44px;
+}
+@media screen and (max-width: 1000px) {
+  .nav__button2 {
+    width: 110px;
+  height: 35px;
+  }
+}
+
+.nav__button-cart {
+  margin-right: 8px;
+}
+
+.nav__button-count {
+  margin-left: 14px;
+}
+
+.main_img {
+  width: 100%;
+}
