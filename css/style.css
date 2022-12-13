@@ -54,6 +54,14 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 80px;
+    height: 20px;
+    margin-right: 8px;
+  }
+}
+
 
 .nav__link {
   text-decoration: none;
@@ -66,6 +74,7 @@
   color: #444444;
 }
 
+
 .nav__link:hover {
   opacity: 0.6;
   cursor: pointer;
@@ -76,6 +85,14 @@
     font-size: 14px;
     line-height: 14px;
     margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav__link {
+    font-size: 12px;
+    line-height: 12px;
+    margin-right: 7px;
   }
 }
 
@@ -102,6 +119,7 @@
   }
 }
 
+
 .nav__button1 {
   width: 143px;
   height: 44px;
@@ -114,15 +132,36 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .nav__button1 {
+    font-size: 10px;
+    line-height: 10px;
+    width: 70px;
+    height: 35px;
+
+  }
+}
+
 .nav__button2 {
   width: 125px;
   height: 44px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1000px) {
   .nav__button2 {
     width: 110px;
     height: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav__button2 {
+    width: 70px;
+    height: 35px;
+    font-size: 10px;
+    line-height: 10px;
+
   }
 }
 
@@ -160,6 +199,24 @@
 
 }
 
+@media screen and (max-width: 600px) {
+  .section__subtitle {
+    line-height: 12px;
+    font-size: 12px;
+    text-transform: none;
+    top: 45px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .section__subtitle {
+    line-height: 12px;
+    font-size: 12px;
+    text-transform: none;
+    top: 25px;
+  }
+}
+
 .section__title {
   max-width: 416px;
   height: 116px;
@@ -176,6 +233,24 @@
   margin-top: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .section__title {
+    line-height: 28px;
+    height: auto;
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .section__title {
+    line-height: 14px;
+
+    font-size: 1.3em;
+  }
+}
+
+
+
 .section__text {
   width: 495px;
   height: 51px;
@@ -191,6 +266,16 @@
   margin: 0;
 }
 
+@media screen and (max-width: 600px) {
+  .section__text {
+    height: 20px;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 10px;
+    width: 250px;
+  }
+}
+
 .about {
   position: relative;
   max-width: 1168px;
@@ -199,6 +284,21 @@
   flex-direction: row;
   gap: 100px;
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .about {
+    flex-direction: column;
+    gap: 20px;
+   margin-left: 5px;
+  }
 }
 
 .about__img {
@@ -213,6 +313,12 @@
     height: 350px;
   }
 }
+@media screen and (max-width: 420px) {
+  .about__img {
+    width: 300px;
+    height: 300px;
+  }
+}
 
 .about__snake {
   position: absolute;
@@ -220,6 +326,14 @@
   left: 451px;
   background: transparent;
 }
+
+@media screen and (max-width: 720px) {
+  .about__snake {
+    width: 0;
+    height: 0;
+  }
+}
+
 
 .about_descrption {
   display: flex;
@@ -253,6 +367,13 @@
     line-height: 14px;
   }
 }
+@media screen and (max-width: 420px) {
+  .about__subtitle {
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 300px;
+  }
+}
 
 .about__title {
   margin: 0;
@@ -269,6 +390,13 @@
   .about__title {
     font-size: 20px;
     line-height: 22px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .about__title {
+    font-size: 20px;
+    line-height: 22px;
+    max-width: 300px;
   }
 }
 
@@ -289,7 +417,14 @@
   .about__text {
     font-size: 12px;
     line-height: 12px;
-    max-width: 350;
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .about__text {
+    font-size: 12px;
+    line-height: 12px;
+    max-width: 300px;
   }
 }
 
@@ -333,10 +468,24 @@
 
 }
 
+@media screen and (max-width: 720px) {
+  .promise__snake1 {
+    width: 0;
+    height: 0;
+  }
+}
+
 .promise__snake2 {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .promise__snake2 {
+    width: 0;
+    height: 0;
+  }
 }
 
 .promise__subtitle {
@@ -353,6 +502,13 @@
   max-width: 119px;
 }
 
+@media screen and (max-width: 420px) {
+  .promise__subtitle {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
 .promise__title {
   font-family: 'Roboto';
   font-style: normal;
@@ -362,6 +518,14 @@
   text-align: center;
   color: #575445;
   margin: 0 auto 7px;
+}
+
+@media screen and (max-width: 420px) {
+  .promise__title {
+    font-size: 20px;
+    line-height: 20px;
+
+  }
 }
 
 .promise__text {
@@ -374,6 +538,14 @@
   text-align: center;
   color: #575445;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 420px) {
+  .promise__text {
+    font-size: 10px;
+    line-height: 12px;
+    max-width: 350px;
+  }
 }
 
 .promise__gallery {
@@ -450,12 +622,37 @@
 
 }
 
+
+
 .family__subtitle {
   max-width: 148px;
 }
 
+@media screen and (max-width: 420px) {
+  .family__subtitle {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .family__title {
+    font-size: 20px;
+    line-height: 20px;
+
+  }
+}
+
 .family__text {
   margin-bottom: 21px;
+}
+
+@media screen and (max-width: 420px) {
+  .family__text {
+    font-size: 10px;
+    line-height: 12px;
+    max-width: 300px;
+  }
 }
 
 .family__galery {
@@ -464,12 +661,38 @@
   gap: calc()
 }
 
+@media screen and (max-width: 600px) {
+  .family__galery {
+    margin-left: 20px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .family__galery{
+    margin-left: 0;
+}
+}
+
+
 
 .gallery__card {
   max-width: 379px;
   border-radius: 10px;
   position: relative;
   margin-bottom: 21px;
+}
+@media screen and (max-width: 420px) {
+  .gallery__card{
+  max-width: 300px;
+  margin-left: 5px;
+}
+}
+@media screen and (max-width: 30px) {
+  .gallery__card{
+  max-width: 300px;
+  margin-left: 5px;
+}
 }
 
 .gallery__title {
@@ -483,6 +706,14 @@
   position: absolute;
   top: calc(39/473*100%);
   left: calc(106/379*100%);
+}
+
+@media screen and (max-width: 420px) {
+  .gallery__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+  }
 }
 
 .gallery__subtitle {
@@ -499,9 +730,40 @@
   max-width: 260px;
 }
 
+@media screen and (max-width: 420px) {
+  .gallery__subtitle {
+    padding-top: 70px;
+    font-size: 12px;
+    line-height: 14px;
+    top: 80px;
+    left: 45px;
+    padding: 0;
+
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .gallery__subtitle {
+    padding-top: 70px;
+    font-size: 12px;
+    line-height: 14px;
+    top: 80px;
+    left: 30px;
+    padding: 0;
+
+  }
+}
+
+
 .gallery__img {
   width: 100%;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .gallery__img {
+    width: 300px;
+  }
 }
 
 .gallery__link {
@@ -516,6 +778,14 @@
   top: calc(147/473*100%);
   left: calc(120/379*100%);
   z-index: 5;
+}
+
+@media screen and (max-width: 400px) {
+  .gallery__link {
+    left: 60px;
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 
 .gallery__link:hover {
@@ -586,20 +856,37 @@
 .shop {
   position: relative;
   background: #375C58;
- max-width: 1440px;
- height: 393px;
+  max-width: 1440px;
+  height: 393px;
 }
-.shop__img{
+
+
+
+.shop__img {
   max-width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
 }
-.shop__btn{
- margin-left: 46%;
+
+.shop__btn {
+  margin-left: 46%;
   width: 111px;
   height: 44px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 420px) {
+  .shop__btn {
+    width: 70px;
+    height: 35px;
+    margin-left: 35%;
+    font-size: 10px;
+    line-height: 12px;
+  }
 }
 
 .shop__subtitle {
@@ -616,25 +903,49 @@
   margin: 0 auto;
 }
 
-.shop__title{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 43px;
-text-align: center;
-color: #E6B939;
-margin: 0 auto;
+@media screen and (max-width: 420px) {
+  .shop__subtitle {
+    padding-top: 70px;
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
-.shop__text{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: #FAFAFC;
-margin-top: 7px auto 21px;
+.shop__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #E6B939;
+  margin: 0 auto;
+}
 
+@media screen and (max-width: 420px) {
+  .shop__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+  }
+}
+
+.shop__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FAFAFC;
+  margin-top: 7px auto 21px;
+
+}
+
+@media screen and (max-width: 420px) {
+  .shop__text {
+    font-size: 10px;
+    line-height: 12px;
+    max-width: 350px;
+  }
 }
