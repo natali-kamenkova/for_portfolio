@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
@@ -13,17 +14,19 @@
     <header class="header">
       <img class="logo" src="./images/logo.jpg" alt="logo">
       <nav class="nav">
-        <a class="nav__link" href="#">Shop</a>
-        <a class="nav__link" href="#">About us</a>
-        <a class="nav__link" href="#">Our team</a>
-        <a class="nav__link" href="#">Buyer's guides</a>
-        <a class="nav__link" href="#">Categories</a>
+        <div class="helper">
+          <a class="nav__link" href="#">Shop</a>
+          <a class="nav__link" href="#">About us</a>
+          <a class="nav__link" href="#">Our team</a>
+          <a class="nav__link" href="#">Buyer's guides</a>
+          <a class="nav__link" href="#">Categories</a>
+        </div>
+        <div class="helper">
+          <button class="nav__button nav__button1">Buy template</button>
+          <button class="nav__button nav__button2"><img class="nav__button-cart" src="./images/корзина.svg">Cart<span
+              class="nav__button-count">0 </span></button>
 
-        <button class="nav__button nav__button1">Buy template</button>
-        <button class="nav__button nav__button2"><img class="nav__button-cart" src="./images/корзина.svg">Cart<span
-            class="nav__button-count">0 </span></button>
-
-
+        </div>
       </nav>
 
     </header>
@@ -146,7 +149,11 @@
         <button class="shop__btn ">Visit shop</button>
 
       </section>
+
     </main>
+    <div>
+      
+    </div>
   </div>
 
   <script src="./scripts.js"></script>
