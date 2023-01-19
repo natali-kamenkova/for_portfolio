@@ -1,5 +1,16 @@
 const familyGallery =document.querySelector('.family__galery');
-console.log(familyGallery)
+const helper1 = document.querySelector('.helper_1');
+const menuBtn = document.querySelector('.menu_btn')
+const b= document.querySelector('.b')
+console.log(helper1)
+
+const color = "white"
+
+menuBtn.addEventListener('click', () => {
+  
+  helper1.classList.toggle('menu-open')
+  menuBtn.classList.toggle('white')
+})
 const initialCards=[
   {
     title: 'Accessories',
@@ -56,3 +67,4 @@ const familyCardHtml=initialCards.map(card=>{
 }).join('');
 
 familyGallery.innerHTML= familyCardHtml;
+
